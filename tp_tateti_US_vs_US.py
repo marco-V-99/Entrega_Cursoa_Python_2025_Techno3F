@@ -1,3 +1,8 @@
+print (f"Bienvenido a TaTeTi, Por Favor, antes de ingreser, elija un nombre \n" )
+nombre_usuario1 = input ("Introduzca su nombre, Usuario 1: ")
+nombre_usuario2 = input ("introduzca su nombre, Usuario 2: ")
+
+
 def tateti ():
     tabla = (f"""
     —————————————————————————
@@ -19,8 +24,6 @@ def tateti ():
 
 
 def jugar():
-    nombre_usuario1 = input ("Introduzca su nombre, Usuario 1: ")
-    nombre_usuario2 = input ("introduzca su nombre, Usuario 2: ")
     tateti()
     while True:
         while True:
