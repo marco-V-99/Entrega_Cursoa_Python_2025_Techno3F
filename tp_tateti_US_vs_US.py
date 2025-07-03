@@ -29,9 +29,7 @@ def jugar():
                 print("Esa posicion ya se encuentra ocupada o es un valor invalido, por favor, elija otra posicion:")
             if usuario_1 in posiciones:
                 lugar = posiciones.index(usuario_1)
-                print (lugar) 
                 posiciones[lugar] = "X"
-                print (posiciones)
                 break
         tateti()
 
@@ -79,9 +77,7 @@ def jugar():
                 print ("Esa posicion ya se encuentra ocupada o es un valor invalido, por favor, elija otra posicion:")
             if usuario_2 in posiciones:
                 lugar = posiciones.index(usuario_2) 
-                print (lugar)
                 posiciones[lugar] = "O"
-                print (posiciones) 
                 break
         tateti()
 
